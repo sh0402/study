@@ -78,10 +78,6 @@ a {
 
 
 /* SUMMARY */
-.summary {
-
-}
-
 .summary__title {
   font-size: 38px;
   font-weight: 300;
@@ -414,9 +410,6 @@ header .sub-menu li a:hover {
 }
 
 /* FOOTER */
-footer {
-
-}
 
 footer .inner {
   padding: 50px 0;
@@ -454,4 +447,18 @@ footer .logo {
 
 footer .logo:hover svg {
   fill: #4078c0;
+}
+
+
+/* MEDIA */
+@media (max-width: 1024px) {
+  header.section .inner {
+    max-width: none;
+    height: auto;
+    padding: 0 20px;
+  }
+  header .menu-group,
+  header .sign-group {
+    float: none;
+  }
 }
